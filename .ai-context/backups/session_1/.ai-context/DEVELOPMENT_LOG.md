@@ -9,5 +9,3 @@
 ## Future Aspirations
 - Build the premium GitHub Timer App interface (HTML/CSS/JS, glassmorphic, visual excellence).
 - Set up automatic git staging/commit scripts or git hooks to push updates to GitHub.
-
-*
