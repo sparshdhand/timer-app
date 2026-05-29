@@ -34,22 +34,22 @@ enum TimerMode: String, CaseIterable, Identifiable {
     var themeColor: Color {
         switch self {
         case .focus:
-            return Color(red: 0.1, green: 0.8, blue: 0.5) // Emerald Mint
+            return Color(red: 0.32, green: 0.48, blue: 0.40) // Muted Forest Sage
         case .shortBreak:
-            return Color(red: 0.15, green: 0.65, blue: 0.95) // Ice Blue
+            return Color(red: 0.42, green: 0.52, blue: 0.62) // Muted Slate Steel
         case .longBreak:
-            return Color(red: 1.0, green: 0.6, blue: 0.2) // Solar Amber
+            return Color(red: 0.70, green: 0.55, blue: 0.45) // Elegant Terracotta/Sand
         }
     }
     
     var gradient: Gradient {
         switch self {
         case .focus:
-            return Gradient(colors: [Color(red: 0.1, green: 0.8, blue: 0.5), Color(red: 0.05, green: 0.5, blue: 0.3)])
+            return Gradient(colors: [Color(red: 0.32, green: 0.48, blue: 0.40), Color(red: 0.22, green: 0.34, blue: 0.28)])
         case .shortBreak:
-            return Gradient(colors: [Color(red: 0.15, green: 0.65, blue: 0.95), Color(red: 0.05, green: 0.4, blue: 0.7)])
+            return Gradient(colors: [Color(red: 0.42, green: 0.52, blue: 0.62), Color(red: 0.30, green: 0.38, blue: 0.46)])
         case .longBreak:
-            return Gradient(colors: [Color(red: 1.0, green: 0.6, blue: 0.2), Color(red: 0.8, green: 0.4, blue: 0.1)])
+            return Gradient(colors: [Color(red: 0.70, green: 0.55, blue: 0.45), Color(red: 0.52, green: 0.40, blue: 0.32)])
         }
     }
 }
