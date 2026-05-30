@@ -4,3 +4,11 @@
 # OS metadata
 .DS_Store
 Thumbs.db
+
+# Xcode User Data and state
+xcuserdata/
+*.xcuserstate
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
