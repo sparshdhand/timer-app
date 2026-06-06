@@ -1,11 +1,3 @@
-# ⚠️ Project Deprecated & Archived
-
-> [!WARNING]
-> **This project is officially deprecated and is no longer under active development or maintenance.**
-> The repository has been archived. The codebase remains publicly available as-is for reference, cloning, or educational purposes. Thank you to everyone who supported this project!
-
----
-
 # GitHub Timer App
 
 An elegant, premium timer application designed for macOS developers and power users, with deep visual storytelling, high-craft aesthetics, and robust local persistence. The app enables users to track time, build focus habits, and visualize their productivity.
