@@ -1,6 +1,3 @@
-# Local Context and Backup folders
-.ai-context/
-
 # OS metadata
 .DS_Store
 Thumbs.db
